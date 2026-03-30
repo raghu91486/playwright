@@ -7,14 +7,21 @@
     "test:headed": "playwright test --headed",
     "test:ui": "playwright test --ui",
     "test:debug": "playwright test --debug",
-    "report": "playwright show-report"
+    "report": "playwright show-report",
+    "check": "tsc --noEmit",
+    "typecheck": "tsc --noEmit",
+    "lint": "tsc --noEmit"
   },
-  "keywords": ["playwright", "typescript", "automation"],
+  "keywords": [
+    "playwright",
+    "typescript",
+    "automation"
+  ],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@playwright/test": "^1.49.1",
+    "@types/node": "^25.5.0",
     "typescript": "^5.7.2"
   }
 }
-
