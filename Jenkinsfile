@@ -41,20 +41,7 @@ pipeline {
             }
         }
         
-        stage('Publish HTML Report') {
-            steps {
-                echo 'Publishing Playwright HTML report...'
-                publishHTML(target: [
-                    allowMissing: false,
-                    alwaysLinkToLastBuild: true,
-                    keepAll: true,
-                    reportDir: 'playwright-report',
-                    reportFiles: 'index.html',
-                    reportName: 'Playwright Test Report',
-                    reportTitles: 'Playwright Test Report'
-                ])
-            }
-        }
+
     }
     
     post {

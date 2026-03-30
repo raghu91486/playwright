@@ -16,6 +16,7 @@ test.describe('Login Navigation Tests', () => {
         await page.screenshot({ path: 'screenshots/login-page.png', fullPage: true });
 
         console.log('✅ Successfully navigated to:', page.url());
+        console.log('✅ Hey raghu your pipeline  triggered successfully');
     });
 });
 
