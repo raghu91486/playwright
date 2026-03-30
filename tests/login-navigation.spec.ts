@@ -4,6 +4,7 @@ test.describe('Login Navigation Tests', () => {
     test('Navigate to login page', async ({ page }) => {
         // Navigate to the login page
         await page.goto('https://preprodapp.tekioncloud.com/login');
+        
 
         // Wait for the page to load
         await page.waitForLoadState('domcontentloaded');
