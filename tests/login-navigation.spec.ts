@@ -17,6 +17,8 @@ test.describe('Login Navigation Tests', () => {
 
         console.log('✅ Successfully navigated to:', page.url());
         console.log('✅ Hey raghu your pipeline  triggered successfully');
+        console.log('✅ Hey raghu your pipeline  triggered successfully');
+
     });
 });
 
